@@ -1,0 +1,53 @@
+.me-img {
+    height: 870px;
+    width: 570px;
+}
+.aboutbase {
+    max-width: 1140px;
+}
+.cardbase-about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%
+}
+.about_content {
+    height: 870px;
+    width: 100%;
+    background-color: #edf0ea
+}
+
+.content_case {
+    height: 870px;
+    width: 400px;
+    margin-left: 32px;
+    margin-top: 100px
+}
+
+
+
+.cinza {
+    background-color: #324142;
+}
+
+.verde {
+    background-color: #34bc8d
+}
+
+@media screen and (max-width:768px) {
+    .cardbase-about {
+        flex-direction: column;
+        height: 607px;
+
+    }
+    .me-img {
+        height: 550px;
+        width: 100%;
+    }
+
+    .content_case {
+        max-width: 350px;
+        width: 80%;
+    }
+
+}

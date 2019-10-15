@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat&display=swap');
+
+
+
+.display1 {
+    font-size: 4em;
+    line-height: 98px;
+    font-weight: 800;
+
+}
+
+.display1,
+.display2 {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: cubic-bezier(.075, .82, .165, 1);
+    transition: cubic-bezier(.075, .82, .165, 1)
+}
+
+.display2 {
+    font-size: 3.37em;
+    line-height: 81px;
+    font-weight: 700
+}
+
+.display3 {
+    font-size: 30px;
+    font-family: hind;
+    font-weight: 400;
+    line-height: 45px;
+    -webkit-transition: cubic-bezier(.075, .82, .165, 1);
+    transition: cubic-bezier(.075, .82, .165, 1)
+}
+
+.heading1 {
+    font-size: 40px;
+    font-family: hind
+}
+
+.heading2 {
+    font-size: 32px;
+    font-family: hind;
+    line-height: 48px
+}
+
+.heading3 {
+    font-size: 28px;
+    font-family: hind;
+    line-height: 42px
+}
+
+.heading4 {
+    font-size: 24px;
+    font-family: hind;
+    line-height: 36px
+}
+
+.heading5 {
+    font-size: 20px;
+    font-family: hind;
+    line-height: 30px
+}
+
+.heading6 {
+    line-height: 21px
+}
+
+.heading6,
+.paragraph {
+    font-size: 16px;
+    font-family: hind
+}
+
+.button-text {
+    font-family: hind;
+    font-size: 20px
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-center {
+    text-align: center
+}
+
+@media screen and (max-width:768px) {
+    .display1 {
+        font-size: 32px;
+        line-height: 37px
+    }
+
+    .display2 {
+        font-size: 27px;
+        line-height: 40px
+    }
+
+    .display3 {
+        font-size: 16px;
+        line-height: 24px
+    }
+}
+
+.darkGrey{
+    color:#324142;
+}
+
+
+
+
+
+/*reset css */
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
