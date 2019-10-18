@@ -6,7 +6,7 @@ import { Heading2, Heading4 } from "../typography/typography"
 export default class CardVerse extends Component {
   render() {
     return (
-      <div className="cardbase">
+      <div className="cardbase_verse">
         <div className={this.props.imgncolor}></div>
         <div className="app_content">
           <div className="content_case">

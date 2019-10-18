@@ -9,7 +9,11 @@
   flex-direction: column;
 }
 
-.cardbase,
+.cardbase{
+  display: flex;
+  margin: 0 auto;
+}
+
 .cardbase_verse {
   display: flex;
   margin: 0 auto;
@@ -96,10 +100,4 @@
     width: 80%;
   }
 
-  .cardbase_verse {
-    display: flex;
-    flex-direction: column;
-    height: 607px;
-    margin-bottom: 16px;
-  }
 }
