@@ -8,7 +8,7 @@ export default class Hero extends Component {
       <div>
         <Navbar />
         <div className="hero_content">
-          <div className="container">
+          <div className="hero-container">
             <div>
               <h1 className="display1 text-center darkGrey item-hero">
                 I Design delightful human experience
