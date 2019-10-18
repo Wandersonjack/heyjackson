@@ -4,7 +4,7 @@ import logoup from '../../images/logoup.png'
 
 export default class Navbar extends Component {
   openMenu(){
-   alert('this fucking is working');
+  //TODO: ADD THE OPEN MENU HERE
   }
   render() {
     return (
