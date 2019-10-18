@@ -4,6 +4,7 @@
 }
 .aboutbase {
     max-width: 1140px;
+    margin-bottom: 32px;
 }
 .cardbase-about {
     display: flex;
@@ -33,10 +34,12 @@
 }
 
 @media screen and (max-width:768px) {
+    .aboutbase{
+        margin-bottom: 64px;
+    }
     .cardbase-about {
         flex-direction: column;
         height: auto;
-
     }
     .me-img {
         height: 550px;

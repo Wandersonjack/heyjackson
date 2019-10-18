@@ -20,5 +20,13 @@
 
 .btn-base:hover{
     transform: translateY(-8px);
-
+}
+.color-orange:hover {
+    background-color: rgb(184, 134, 74);
+}
+.color-green:hover{
+    background-color: rgb(36, 130, 97);
+}
+.color-blue:hover{
+    background-color: rgb(76, 121, 172);
 }
