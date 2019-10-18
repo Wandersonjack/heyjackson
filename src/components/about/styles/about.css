@@ -19,10 +19,8 @@
 }
 
 .content_case {
-    height: 870px;
     width: 400px;
     margin-left: 32px;
-    margin-top: 100px
 }
 
 
@@ -41,7 +39,7 @@
     }
     .cardbase-about {
         flex-direction: column;
-        height: 607px;
+        height: auto;
     }
     .me-img {
         height: 550px;
