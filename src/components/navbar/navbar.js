@@ -8,7 +8,7 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <div class="navbar">
+      <div className="navbar">
         <header>
             <div className="menu">
                 <div className="logo">
