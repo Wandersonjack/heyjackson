@@ -3,14 +3,14 @@ import Button from "../button/button"
 import { Heading2, Heading4 } from "../typography/typography"
 import "../card/styles/card.css"
 import "../about/styles/about.css"
-import jackson from '../../images/jackson.jpg'
+import heyjackson from '../../images/heyjackson.jpg'
 
 export default class About extends Component {
   render() {
     return (
       <div className="cardbase-about gap-top">
         <div className={this.props.imgncolor}>
-          <img src={jackson} className="me-img"/>
+          <img src={heyjackson} className="me-img"/>
         </div>
         <div className="about_content">
           <div className="content_case">
