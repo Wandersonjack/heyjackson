@@ -1,6 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import Card from '../card'
+import WorkCard from "../workflowcard"
 
 
 
@@ -13,4 +14,14 @@ stories.add("Card", () =>
     apptext="this is an amazing content about this app right here."
     button="btn-base color-orange"
      />
+)
+
+stories.add("WorkCard",() => 
+<WorkCard 
+    image=""
+    title="Explore"
+    content="hello  world"
+
+/>
+
 )
