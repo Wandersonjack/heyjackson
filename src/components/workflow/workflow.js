@@ -12,9 +12,9 @@ export default class WorkFlow extends Component {
           <WorkCard
             image=""
             title="01 Explore"
-            item1="Stakeholder interview"
-            item2="User research"
-            item3="Competitor analysis"
+            item1="- Stakeholder interview"
+            item2="- User research"
+            item3="- Competitor analysis"
           />
           <WorkCard
             image=""
