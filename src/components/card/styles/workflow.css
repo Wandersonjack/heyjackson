@@ -20,3 +20,10 @@
     padding-bottom: 32px;
     color: #000000;
 }
+
+@media screen and (max-width:768px){
+    .work-card{
+        margin-left:15px;
+        margin-right: 20px;
+    }
+}

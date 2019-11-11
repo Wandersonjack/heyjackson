@@ -83,4 +83,8 @@ header{
     .hero_content{
         height: 475px;
     }
+
+    .header{
+        padding-top:16px;
+    }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans&display=swap');
 
 
 
@@ -115,7 +115,9 @@
 }
 
 
-
+li{
+    font-family: 'Work Sans', sans-serif;
+}
 
 
 /*reset css */
