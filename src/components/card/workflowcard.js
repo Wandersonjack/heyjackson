@@ -12,7 +12,6 @@ export default class WorkCard extends Component {
           </div>
           <div>
             <Heading1 children="heading2" text={this.props.title} />
-            <Body1 children="paragraph " text={this.props.content} />
             <ul>
               <li>{this.props.item1}</li>
               <li>{this.props.item2}</li>

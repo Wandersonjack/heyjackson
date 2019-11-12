@@ -16,7 +16,7 @@ export default class Work extends Component {
             apptitle="BitOfProperty"
             border="border-green"
             link="https://www.bitofproperty.com"
-            apptext="Is an international real estate invesment company, that enables users to invest starting with a little as €50."
+            apptext="Is an international real estate investment company, that enables users to invest starting with a little as €50."
             text="View work"
             button="btn-base color-green"
           />
@@ -30,9 +30,9 @@ export default class Work extends Component {
           />
           <Card
             imgncolor="app_img azul"
-            apptitle="Adopet"
+            apptitle="Cubic"
             border="border-blue"
-            apptext="Is a platform that enables you to adopt pet of your wish, to search and find your loved pet."
+            apptext="Cubic is a personal finance management app, that helps you to where, when and how your money is being spent."
             text="Coming soon..."
             button="btn-base color-blue"
           />
