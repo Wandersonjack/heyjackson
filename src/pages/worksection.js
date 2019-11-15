@@ -3,7 +3,9 @@ import CardVerse from "../components/card/cardverse"
 import Card from "../components/card/card"
 import About from "../components/about/about"
 import { Display2 } from "../components/typography/typography"
-import '../pages/styles/page.css'
+import "../pages/styles/page.css"
+import shift from "../assets/shift.png"
+import bop from "../assets/bop.png"
 
 export default class Work extends Component {
   render() {
@@ -12,6 +14,7 @@ export default class Work extends Component {
         <section className="container">
           <Display2 text="Work" children="display2" />
           <Card
+            letter="B"
             imgncolor="app_img verde"
             apptitle="BitOfProperty"
             border="border-green"
@@ -21,6 +24,7 @@ export default class Work extends Component {
             button="btn-base color-green"
           />
           <CardVerse
+            letter="F"
             imgncolor="app_img laranja"
             apptitle="Feelite"
             border="border-orange"
@@ -29,10 +33,11 @@ export default class Work extends Component {
             button="btn-base color-orange"
           />
           <Card
+            letter="S"
             imgncolor="app_img azul"
-            apptitle="Cubic"
+            apptitle="Shiftio"
             border="border-blue"
-            apptext="Cubic is a personal finance management app, that helps you to where, when and how your money is being spent."
+            apptext="Helping you to find your home sweet home, with no hassle."
             text="Coming soon..."
             button="btn-base color-blue"
           />

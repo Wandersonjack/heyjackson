@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Designer & Developer`,
-    description: `   Designing and coding the future with a user-centered approach. User experience to help achieve business goals and solve user's problems and code to bring the design to life.`,
+    description: `Designing and coding the future with a user-centered approach. User experience to help achieve business goals and solve user's problems and code to bring the design to life.`,
     author: `@wandersonjackson`,
   },
   plugins: [

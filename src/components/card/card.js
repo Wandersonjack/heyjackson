@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "../card/styles/card.css"
 import Button from "../button/button"
-import { Heading2, Heading4 } from "../typography/typography"
+import { Heading2, Heading4, Heading1 } from "../typography/typography"
 
 export default class Card extends Component {
   render() {
@@ -20,7 +20,9 @@ export default class Card extends Component {
             </div>
           </div>
         </div>
-        <div className={this.props.imgncolor}></div>
+        <div className={this.props.imgncolor}>
+          <Heading1  text={this.props.letter} children="letter"/>
+        </div>
       </div>
     )
   }

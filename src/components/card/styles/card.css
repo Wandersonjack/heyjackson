@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton&display=swap');
+
 .cardbase {
   max-width: 1140px;
 }
@@ -7,9 +9,20 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+
 }
 
-.cardbase{
+.letter {
+  font-size: 300px;
+  font-family: 'Monoton', cursive;
+  font-family: 'Bungee Shade', cursive;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: black;
+}
+
+.cardbase {
   display: flex;
   margin: 0 auto;
 }
@@ -18,13 +31,16 @@
   display: flex;
   margin: 0 auto;
 }
+
 .app_content {
   width: 100%;
   background-color: #edf0ea;
 }
+
 .app_img {
   width: 100%;
 }
+
 .content_case {
   width: 369px;
   margin-left: 32px;
@@ -49,6 +65,7 @@
   margin-top: 2px;
   margin-bottom: 32px;
 }
+
 .border-orange {
   border-bottom: 8px solid #fdba69;
   max-width: 30%;
@@ -59,12 +76,15 @@
 .gap-top {
   margin-top: 32px;
 }
+
 .gap-bottom {
   margin-bottom: 32px;
 }
+
 .cinza {
   background-color: #324142;
 }
+
 .verde {
   background-color: #34bc8d;
 }
@@ -83,10 +103,12 @@
     width: 100%;
     margin-bottom: 16px;
   }
+
   .cardbase_verse {
     flex-direction: column;
     margin-bottom: 16px;
   }
+
   .app_img {
     height: 293px;
     width: 100%;
@@ -98,6 +120,26 @@
 
   .content_case {
     width: 80%;
+  }
+
+  .c_appImg {
+    margin-top: 42px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content_case {
+    padding: 32px 0;
+  }
+
+  .letter {
+    font-size: 6em;
+    font-family: 'Monoton', cursive;
+    font-family: 'Bungee Shade', cursive;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
   }
 
 }
