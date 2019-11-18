@@ -18,7 +18,7 @@
 .display2 {
     font-size: 3.37em;
     line-height: 81px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .display3 {
@@ -27,79 +27,79 @@
     font-weight: 400;
     line-height: 45px;
     -webkit-transition: cubic-bezier(.075, .82, .165, 1);
-    transition: cubic-bezier(.075, .82, .165, 1)
+    transition: cubic-bezier(.075, .82, .165, 1);
 }
 
 .heading1 {
     font-size: 40px;
-    font-family: hind
+    font-family: hind;
 }
 
 .heading2 {
     font-size: 32px;
     font-family: hind;
-    line-height: 48px
+    line-height: 48px;
 }
 
 .heading3 {
     font-size: 28px;
     font-family: hind;
-    line-height: 42px
+    line-height: 42px;
 }
 
 .heading4 {
     font-size: 24px;
     font-family: hind;
-    line-height: 36px
+    line-height: 36px;
 }
 
 .heading5 {
     font-size: 20px;
     font-family: hind;
-    line-height: 30px
+    line-height: 30px;
 }
 
 .heading6 {
-    line-height: 21px
+    line-height: 21px;
 }
 
 .heading6,
 .paragraph {
     font-size: 1em;
-    font-family: hind
+    font-family: hind;
 }
 
 .button-text {
     font-family: hind;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .text-left {
-    text-align: left
+    text-align: left;
 }
 
 .text-right {
-    text-align: right
+    text-align: right;
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
 }
 
 @media screen and (max-width:768px) {
     .display1 {
         font-size: 32px;
-        line-height: 37px
+        line-height: 37px;
     }
 
     .display2 {
         font-size: 27px;
-        line-height: 40px
+        line-height: 40px;
     }
 
     .display3 {
         font-size: 16px;
-        line-height: 24px
+        line-height: 24px;
     }
 }
 

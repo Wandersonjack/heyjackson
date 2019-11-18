@@ -10,7 +10,7 @@ export default class WorkFlow extends Component {
       <div className="work-container">
         <Display2 text="My workflow" children="display2 sized-box-left" />
         <div className="info-info">
-            <img src={information} className="info" /> <Body1 text="Note that this workflow is not linear :)" children="paragraph"/>{" "}   
+            <img src={information} className="info" /> <Body1 text="Note that this workflow is not linear neither immutable :)" children="paragraph"/>{" "}   
         </div>
         <div className="work-section">
           <WorkCard

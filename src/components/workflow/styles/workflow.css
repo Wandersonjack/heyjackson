@@ -7,6 +7,8 @@
 .info-info{
     display: flex;
     align-items: center;
+    margin-top:-60px;
+    margin-bottom: -30px;
 }
 .text{
     font-size: 2.5em;
@@ -30,4 +32,15 @@
 .sized-box-left{
     margin-left: 16px;
     margin-top: 128px;
+}
+
+
+@media screen and (max-width:768px){
+    .info-info{
+        margin-top:-5px;
+        margin-bottom: -50px;
+    }
+    .info{
+        margin-right: 10px;
+    }
 }
