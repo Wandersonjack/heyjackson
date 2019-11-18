@@ -1,13 +1,17 @@
 import React, { Component } from "react"
 import WorkCard from "../card/workflowcard"
 import "../workflow/styles/workflow.css"
-import { Display2 } from "../typography/typography"
+import { Display2, Body1 } from "../typography/typography"
+import information from "../../assets/information.png"
 
 export default class WorkFlow extends Component {
   render() {
     return (
       <div className="work-container">
         <Display2 text="My workflow" children="display2 sized-box-left" />
+        <div className="info-info">
+            <img src={information} className="info" /> <Body1 text="Note that this workflow is not linear :)" children="paragraph"/>{" "}   
+        </div>
         <div className="work-section">
           <WorkCard
             image=""
@@ -24,13 +28,7 @@ export default class WorkFlow extends Component {
             item3="- User interview"
             item4="- Build persona"
           />
-          <WorkCard
-            image=""
-            title=" 03 Ideate"
-            item1="- Design studio"
-            item2="- Final wireframe"
-            item3="- User flow"
-          />
+          <WorkCard image="" title=" 03 Ideate" item1="- Design studio" item2="- Final wireframe" item3="- User flow" />
           <WorkCard
             image=""
             title="04 Prototype"
