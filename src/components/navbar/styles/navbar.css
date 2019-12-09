@@ -31,12 +31,17 @@ header{
     display: block;
     margin:0 auto;
     padding-top:30px;
+    position: fixed;
 }
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.menu-nav{
+    cursor:pointer;
 }
 
 .menu-nav ul{
@@ -59,6 +64,10 @@ header{
     visibility: hidden;
 }
 
+
+Link{
+    cursor: pointer;
+}
 @media screen and (max-width:768px){
     .hamburguer{
         visibility: visible;

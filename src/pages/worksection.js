@@ -10,7 +10,7 @@ import bop from "../assets/bop.png"
 export default class Work extends Component {
   render() {
     return (
-      <div>
+      <div id="work-section">
         <section className="container">
           <Display2 text="Work" children="display2" />
           <Card
@@ -42,17 +42,8 @@ export default class Work extends Component {
             button="btn-base color-blue"
           />
         </section>
-        <section className="container gap-top">
-          <Display2 text="About me" children="display2" />
-          <About
-            myname="Wanderson Jackson"
-            border="border-green"
-            aboutme="I'm Wanderson Jackson, Product Designer with strong focus on user-centered design, to validate and build digital products that users want, with teams of engineers, executives, and marketing teams, to ensure user needs are aligned with business goals."
-            freetime="On free time I enjoy dancing, diving and hiking.
-            Also love to inspire people creating content for my Youtube channel."
-            button="btn-base verde"
-          />
-        </section>
+
+        
       </div>
     )
   }

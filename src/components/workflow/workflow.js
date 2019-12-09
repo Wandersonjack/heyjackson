@@ -7,7 +7,7 @@ import information from "../../assets/information.png"
 export default class WorkFlow extends Component {
   render() {
     return (
-      <div className="work-container">
+      <div className="work-container" id="workflow-section">
         <Display2 text="My workflow" children="display2 sized-box-left" />
         <div className="info-info">
             <img src={information} className="info" /> <Body1 text="Note that this workflow is not linear neither immutable :)" children="paragraph"/>{" "}   

@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "image" : "../../assets/bop.png",
+        "name" : "BitOfProperty",
+        "description" : "BitOfProperty is a real estate investment platform that enables you to invest starting with a little as 50 euros.",
+        "role" : "Senior Product Designer",
+        "tootls" : "Invision Studio,  Miro, Figma Design, DaVinci Resolve",
+        "team" : "3 Product Engineer, CEO, COO and Product Designer",
+        "platform" : "Web",
+        "problem" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam in tempor imperdiet venenatis, pellentesque neque. Neque dolor tellus, in curabitur fames elementum. Tempor arcu volutpat quam vel orci condimentum. Consectetur iaculis tempus iaculis turpis pretium.",
+        
+    },
+    {
+        "id": 2,
+        "image" : "../../assets/bop.png",
+        "name" : "Feelite",
+        "description" : "is a meditation app that helps you to improve concentration, relax and sleep using science to improve the little things that make your daily life better.",
+        "role" : "Senior Product Designer",
+        "tootls" : "Invision Studio,  Miro, Figma Design, DaVinci Resolve",
+        "team" : "3 Product Engineer, CEO, COO and Product Designer",
+        "platform" : "Mobile",
+        "problem" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam in tempor imperdiet venenatis, pellentesque neque. Neque dolor tellus, in curabitur fames elementum. Tempor arcu volutpat quam vel orci condimentum. Consectetur iaculis tempus iaculis turpis pretium.",
+        
+    },
+    {
+        "id": 3,
+        "image" : "../../assets/bop.png",
+        "name" : "Shiftio",
+        "description" : "Helping you to find your home sweet home, with no hassle.",
+        "role" : "Senior Product Designer",
+        "tootls" : "Invision Studio,  Miro, Figma Design, DaVinci Resolve",
+        "team" : "3 Product Engineer, CEO, COO and Product Designer",
+        "platform" : "Web",
+        "problem" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam in tempor imperdiet venenatis, pellentesque neque. Neque dolor tellus, in curabitur fames elementum. Tempor arcu volutpat quam vel orci condimentum. Consectetur iaculis tempus iaculis turpis pretium.",
+        
+    }
+
+
+
+]

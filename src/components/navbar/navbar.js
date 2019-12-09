@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import {Link } from 'react-scroll'
+
 import './styles/navbar.css'
 import logoup from '../../images/logoup.png'
 
@@ -22,12 +24,48 @@ export default class Navbar extends Component {
                   <div className="line"></div>
                 </div>
                 <nav className="menu-nav">
-                    <ul>
-                        <li> <a href="#" className="active">Home</a></li>
-                        <li> <a href="#">Work</a></li>
-                        <li> <a href="#">About me</a></li>
-                        <li> <a href="#">Contact</a></li>
-                    </ul>
+                    <Link
+                      activeClass="active"
+                      to="main-section"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={500}
+                    >
+                    Home
+                    </Link>
+                    <Link
+                      activeClass="active"
+                      to="work-section"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={500}
+                      
+                    >
+                    Work
+                    </Link>
+                    <Link
+                      activeClass="active"
+                      to="aboutme-section"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={500}
+                      
+                    >
+                    About
+                    </Link>
+                    <Link
+                      activeClass="active"
+                      to="workflow-section"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={500}
+                    >
+                    My Workflow
+                    </Link>
                 </nav>
             </div>
         </header>

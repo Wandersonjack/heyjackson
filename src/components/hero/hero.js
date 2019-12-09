@@ -1,11 +1,12 @@
 import React, { Component } from "react"
 import "./styles/hero.css"
 import Navbar from "../navbar/navbar"
+import AppDetailsPage from "../details/appdetails"
 
 export default class Hero extends Component {
   render() {
     return (
-      <div>
+      <div id="main-section">
         <Navbar />
         <div className="hero_content">
           <div className="hero-container">
