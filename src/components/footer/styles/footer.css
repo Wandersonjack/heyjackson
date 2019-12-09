@@ -1,18 +1,18 @@
 
 .footer-title{
     color:white;
-    text-align:center;
+    text-align:left;
     padding-top:94px;
     margin-top:32px;
 }
 .footer {
-    background-color: #324142;
-    height: 521px;
+    background-color: #000000;
+    height: 700px;
 }
 .content{
     display: block;
     margin:0 auto;
-    max-width: 400px;
+    max-width: 700px;
 }
 .footer-container{
     width: 100%;
@@ -25,16 +25,57 @@
 .footer a img{
     width: 44px;
     height: 44px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .header-line{
     height: 8px;
     width: 89px;
     background-color: #FFF;
-    display: block;
-    margin:0 auto;
+   
 }
+.contact-extra{
+    display: flex;
+    flex-direction: row;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:32px;
+}
+
+.item{
+    border-radius: 2px;
+    width: 45%;
+    color:#FFF;
+    background-color: #34BC8C;
+    padding-left: 16px;
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/*tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: greenyellow;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 @media screen and  (max-width:768px){
     .content{
@@ -43,7 +84,11 @@
     .footer-title{
         color:white;
         text-align:center;
-        margin-top:28px;
+        margin-top:5px;
+    }
+    .header-line{
+        display: block;
+        margin:0 auto;
     }
     .footer-container{
         width: 100%;
@@ -53,12 +98,21 @@
         height: 44px;
         margin-top: 128px;
     }
+
+    .contact-extra{
+        flex-direction: column-reverse;
+        margin-top:32px;
+    }
+    .item{
+        width: 100%;
+    }
     
 }
 
 /*designed and coded from scratch*/
 
 .scratch{
-    text-align: center;
+    text-align: left;
+    margin-top:70px;
     color:#7F7D83;
 }
