@@ -61,7 +61,7 @@ export default class Navbar extends Component {
                       to="workflow-section"
                       spy={true}
                       smooth={true}
-                      offset={-50}
+                      offset={-100}
                       duration={500}
                     >
                     My Workflow
