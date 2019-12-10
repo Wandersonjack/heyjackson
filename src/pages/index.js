@@ -7,7 +7,6 @@ import { Element } from "react-scroll"
 
 import "../pages/styles/page.css"
 import Work from "./worksection"
-import { element } from "prop-types"
 import About from "../components/about/about"
 
 export default class IndexPage extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Button from "../button/button"
-import { Heading2, Heading4 } from "../typography/typography"
+import { Heading2, Heading4, Display2 } from "../typography/typography"
 import "../card/styles/card.css"
 import "../about/styles/about.css"
 
@@ -8,6 +8,7 @@ export default class About extends Component {
   render() {
     return (
       <div className="container">
+        <Display2 text="About me" children="display2" />
         <div className="cardbase-about gap-top" id="aboutme-section">
           <div className={this.props.imgncolor}>
             <img
