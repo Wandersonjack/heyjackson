@@ -21,7 +21,7 @@ export default class Card extends Component {
           </div>
         </div>
         <div className={this.props.imgncolor}>
-          <Heading1  text={this.props.letter} children="letter"/>
+          <img src={this.props.app_mockup} className={this.props.style}/>
         </div>
       </div>
     )

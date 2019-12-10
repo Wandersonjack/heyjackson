@@ -1,11 +1,10 @@
 import React, { Component } from "react"
 import CardVerse from "../components/card/cardverse"
 import Card from "../components/card/card"
-import About from "../components/about/about"
 import { Display2 } from "../components/typography/typography"
 import "../pages/styles/page.css"
-import shift from "../assets/shift.png"
-import bop from "../assets/bop.png"
+import bopmockupfull from "../assets/bopmockupfull.png"
+import shiftshift from "../assets/shiftshift.png"
 
 export default class Work extends Component {
   render() {
@@ -14,7 +13,8 @@ export default class Work extends Component {
         <section className="container">
           <Display2 text="Work" children="display2" />
           <Card
-            letter="B"
+            app_mockup={bopmockupfull}
+            style="web_mockup"
             imgncolor="app_img verde"
             apptitle="BitOfProperty"
             border="border-green"
@@ -33,7 +33,8 @@ export default class Work extends Component {
             button="btn-base color-orange"
           />
           <Card
-            letter="S"
+            app_mockup={shiftshift}
+            style="mobile_mockup"
             imgncolor="app_img azul"
             apptitle="Shiftio"
             border="border-blue"
