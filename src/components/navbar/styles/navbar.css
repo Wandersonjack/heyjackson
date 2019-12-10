@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Hind&display=swap);
-body {
+body,ul,li {
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -12,14 +12,13 @@ body {
 .nav-bar{
     background-color:#EDF0EA;
     height: 100px;
-   
+   font-family: 'Hind';
 }
 
 header{
     max-width: 1140px;
     width: 100%;
-    display: block;
-    margin:0 auto;
+    position: fixed;
     padding-top:30px;
     padding-bottom:30px;
     background-color:#EDF0EA;

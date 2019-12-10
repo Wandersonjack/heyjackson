@@ -156,4 +156,20 @@
     margin-top: 50px;
   }
 
+
+
+.web_mockup{
+  width: 80%;
+  display: block;
+  margin:0 auto;
+  padding-top:64px;
+}
+.mobile_mockup{
+  width: 40%;
+  height: 260px;
+  display: block;
+  margin:0 auto;
+  padding-top:32px;
+}
+
 }
