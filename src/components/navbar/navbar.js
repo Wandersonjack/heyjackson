@@ -66,6 +66,16 @@ export default class Navbar extends Component {
                     >
                     My Workflow
                     </Link>
+                    <Link
+                      activeClass="active"
+                      to="contact-section"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={500}
+                    >
+                    Contact
+                    </Link>
                 </nav>
             </div>
         </header>

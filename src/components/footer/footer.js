@@ -8,7 +8,7 @@ import Heading1, { Heading2, Heading4, Body1 } from "../typography/typography"
 export default class Footer extends Component {
   render() {
     return (
-      <div className="footer" id="contact-footer-section">
+      <div className="footer" id="contact-section">
         <div className="content">
           <Heading2
             children="heading2 footer-title"
