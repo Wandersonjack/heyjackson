@@ -13,7 +13,7 @@ export default class Work extends Component {
         <section className="container">
           <Display2 text="Work" children="display2" />
           <Card
-            app_mockup={bopmockupfull}
+            app_mockup={'https://res.cloudinary.com/wander8jackson/image/upload/c_scale,w_1730/v1576076810/bopmockupfull_dahtbx.png'}
             style="web_mockup"
             imgncolor="app_img verde"
             apptitle="BitOfProperty"
