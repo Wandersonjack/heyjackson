@@ -23,15 +23,19 @@ export default class Work extends Component {
             text="View work"
             button="btn-base color-green"
           />
-          <CardVerse
-            letter="F"
-            imgncolor="app_img laranja"
-            apptitle="Feelite"
-            border="border-orange"
-            apptext="is a meditation app that helps you to improve concentration, relax and sleep using science to improve the little things that make your daily life better."
-            text="Coming soon..."
-            button="btn-base color-orange"
+          <div className="space-top"></div>
+          <Card 
+          app_mockup={'https://res.cloudinary.com/wander8jackson/image/upload/v1576153753/Untitled_r0sedf.gif'}
+          style="web_mockup"
+            imgncolor="app_img bck-green-accent"
+            apptitle="Hiple"
+            border="border-green-accent"
+            link="https://www.figma.com/file/FV85aBuTX2IdXemk7AWeEO6j/Hiple-Sistema-Gest%C3%A3o-Pauta-Demandas?node-id=13%3A2"
+            apptext="Project management app that enables you to manage team, projects and task all in on place."
+            text="View work"
+            button="btn-base verde-accent"
           />
+          <div className="space-top"></div>
           <Card
             app_mockup={shiftshift}
             style="mobile_mockup"

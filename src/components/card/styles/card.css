@@ -25,6 +25,9 @@
   padding-top:100px;
 }
 
+.space-top{
+  margin-top:32px;
+}
 
 .letter {
   font-size: 300px;
@@ -79,6 +82,14 @@
   margin-top: 2px;
   margin-bottom: 32px;
 }
+.border-greenaccent {
+  border-bottom: 8px solid #C7DFAF;
+  max-width: 30%;
+  margin-top: 2px;
+  margin-bottom: 32px;
+}
+
+
 
 .border-orange {
   border-bottom: 8px solid #fdba69;
@@ -101,6 +112,13 @@
 
 .verde {
   background-color: #34bc8d;
+}
+.verde-accent{
+  background-color:#C7DFAF;
+}
+
+.bck-green-accent{
+  background-color: rgb(222, 238, 206);
 }
 
 .laranja {
@@ -162,7 +180,7 @@
   width: 80%;
   display: block;
   margin:0 auto;
-  padding-top:64px;
+  padding-top:32px;
 }
 .mobile_mockup{
   width: 40%;
