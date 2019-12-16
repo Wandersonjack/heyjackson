@@ -4,55 +4,48 @@ import instagram from "../../images/instagram.png"
 import linkedin from "../../images/linkedin.png"
 import youtube from "../../images/youtube.png"
 import "./styles/footer.css"
-import Heading1, { Heading2, Heading4, Body1 } from "../typography/typography"
+import "../grid-system/custom-layout.css"
+import Heading1, {
+  Heading2,
+  Heading4,
+  Body1,
+  Display2,
+} from "../typography/typography"
 export default class Footer extends Component {
   render() {
     return (
       <div className="footer" id="contact-section">
-        <div className="content">
-          <Heading2
-            children="heading2 footer-title"
-            text="Let's be friends, contact me here"
-          />
-          <div className="header-line"></div>
-          <div className="footer-container">
-            <a
-              href="https://www.linkedin.com/in/wandersonjackson/"
-              target="_blank"
-            >
-              <img src={linkedin} />
-            </a>
-            <a href="https://dribbble.com/wandersonjackson" target="_blank">
-              <img src={dribbble} />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCl60DuaPJG5rB6WhKOADueA"
-              target="_blank"
-            >
-              <img src={youtube} />
-            </a>
-            <a
-              href="https://www.instagram.com/differentjackson/"
-              target="_blank"
-            >
-              <img src={instagram} />
-            </a>
-          </div>
-          <div className="contact-extra">
-            <div className="item tooltip">
-              <Heading4 text="Email" children="heading4 branco" />
-              <Body1 text="wander8jackson@gmail.com" children="paragraph" />
+        <div className="custom-container">
+          <Display2 text="Contact" children="display2 whiteColor"/>
+          <div className="c-row">
+            <div className="column-6">
+              <div className="contact-link">
+                <img src={linkedin} />
+                <a href="https://www.linkedin.com/in/wandersonjackson/" target="_blank">
+                  Linkedin
+                </a>
+              </div>
+              <div className="contact-link">
+                <img src={dribbble} />
+                <a href="https://dribbble.com/wandersonjackson" target="_blank">
+                  Dribbble
+                </a>
+              </div>
+              <div className="contact-link">
+                <img src={youtube} />
+                <a href="https://www.youtube.com/channel/UCl60DuaPJG5rB6WhKOADueA" target="_blank">
+                  Youtube
+                </a>
+              </div>
+              <div className="contact-link">
+                <img src={instagram} />
+                <a href="https://dribbble.com/wandersonjackson" target="_blank">
+                 Instagram
+                </a>
+              </div>
             </div>
-            <div className="item">
-              <Heading4 text="Phone" children="heading4 branco" />
-              <Body1 text="+372 5322-9945" children="paragraph" />
-            </div>
+            <div className="column-6"></div>
           </div>
-    
-          <Body1
-            children="paragraph scratch"
-            text="I designed and coded from scratch. © 2019 "
-          />
         </div>
       </div>
     )

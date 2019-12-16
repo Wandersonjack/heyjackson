@@ -15,8 +15,8 @@
 }
 
 .display2 {
-    font-size: 3.37em;
-    line-height: 81px;
+    font-size: 48px;
+    line-height: 59px;
     font-weight: 700;
 }
 
@@ -31,30 +31,30 @@
 
 .heading1 {
     font-size: 40px;
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
 }
 
 .heading2 {
     font-size: 32px;
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
     line-height: 48px;
 }
 
 .heading3 {
     font-size: 28px;
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
     line-height: 42px;
 }
 
 .heading4 {
     font-size: 24px;
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
     line-height: 36px;
 }
 
 .heading5 {
     font-size: 20px;
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
     line-height: 30px;
 }
 
@@ -117,6 +117,10 @@
 
 .darkGrey{
     color:#262D32;
+}
+
+.whiteColor{
+    color:#fff;
 }
 
 

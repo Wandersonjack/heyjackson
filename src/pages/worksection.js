@@ -17,11 +17,11 @@ export default class Work extends Component {
             style="web_mockup"
             imgncolor="app_img verde"
             apptitle="BitOfProperty"
-            border="border-green"
+            border="border-standard"
             link="https://www.bitofproperty.com"
-            apptext="Is an international real estate investment company, that enables users to invest starting with a little as €50."
+            apptext="Is an international real estate investment company, that enables users to invest starting with a little as 50 euro."
             text="View work"
-            button="btn-base color-green"
+            button="btn-base"
           />
           <div className="space-top"></div>
           <Card 
@@ -29,11 +29,11 @@ export default class Work extends Component {
           style="web_mockup"
             imgncolor="app_img bck-green-accent"
             apptitle="Hiple"
-            border="border-green-accent"
+            border="border-standard"
             link="https://www.figma.com/file/FV85aBuTX2IdXemk7AWeEO6j/Hiple-Sistema-Gest%C3%A3o-Pauta-Demandas?node-id=13%3A2"
             apptext="Project management app that enables you to manage team, projects and task all in on place."
             text="View work"
-            button="btn-base verde-accent"
+            button="btn-base"
           />
           <div className="space-top"></div>
           <Card
@@ -41,10 +41,10 @@ export default class Work extends Component {
             style="mobile_mockup"
             imgncolor="app_img azul"
             apptitle="Shiftio"
-            border="border-blue"
+            border="border-standard"
             apptext="Helping you to find your home sweet home, with no hassle."
             text="Coming soon..."
-            button="btn-base color-blue"
+            button="btn-base"
           />
         </section>
 

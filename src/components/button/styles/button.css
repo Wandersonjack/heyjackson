@@ -12,12 +12,13 @@
     height: 60px;
     width: 198px;
     font-size: 20px;
-    border: 4px solid black;
+    border: 2px solid black;
     color: black;
     cursor: pointer;
+    background-color:#EDF0EA;
     transition:.5s ease-out;
-    box-shadow: 10px 10px 0px #000;
     transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: 'Karla', sans-serif;
 }
 
 .btn-base:hover{

@@ -15,6 +15,10 @@
     background-color: grey;
 }
 
+.txt-hero{
+    width: 80%;
+}
+
 .item-hero {
     margin-bottom: 51px;
 }
@@ -35,6 +39,27 @@
     .hero-subtitle {
         width: 93%;
         display: block;
-        margin:0 auto;
+        margin: 0 auto;
     }
+    .customVideoPlayer{
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+/*custom video player*/
+.centerView{
+    margin:0 auto;
+    display: block;
+}
+.customVideoPlayer {
+    height: 414px;
+    width: 585;
+    background: #262D32;
+    opacity: 0.1;
+    border-radius: 13px;
+    
 }

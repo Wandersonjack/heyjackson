@@ -14,3 +14,13 @@
 .column-6{
     width: 50%;
 }
+
+
+@media screen and (max-width:768px){
+    .c-row{
+        flex-direction: column;
+    }
+    .column-6{
+        width: 80%;
+    }
+}

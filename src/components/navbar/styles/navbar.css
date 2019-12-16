@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Hind&display=swap);
-body,ul,li {
+
+body,
+ul,
+li {
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -10,83 +13,83 @@ body,ul,li {
 
 
 .nav-bar{
-    background-color:#EDF0EA;
-    height: 100px;
-   font-family: 'Hind';
+    background-color: #EDF0EA;
+    height: 60px;
+    font-family: 'Karla', sans-serif;
 }
 
-header{
-
+header {
     width: 100%;
     position: fixed;
-    padding-top:30px;
-    padding-bottom:30px;
-    background-color:#EDF0EA;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.logo img{
+
+.logo img {
     width: 40px;
     height: 25px;
     margin-left: 128px;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.menu-nav{
-    cursor:pointer;
+.menu-nav {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 
 }
 
 
 
-.menu-nav a{
-    margin-right:32px;
+.menu-nav a {
+    margin-right: 32px;
 }
 
-.active{
-    color:#34BC8D;
-    border-bottom: 4px solid #34BC8D;
+.active {
+    color: #262D32;
+    border-bottom: 4px solid #262D32;
 }
 
-.hamburguer{
+.hamburguer {
     visibility: hidden;
 }
 
 
-@media screen and (max-width:768px){
-    .hamburguer{
+@media screen and (max-width:768px) {
+    .hamburguer {
         visibility: visible;
         margin-right: 10%;
     }
-    .line{
+
+    .line {
         height: 2px;
         width: 32px;
         background: #324142;
         margin-top: 6px;
     }
-    .menu-nav{
+
+    .menu-nav {
         visibility: hidden;
     }
 
-    .logo img{
-       margin-top:10%;
+    .logo img {
+        margin-top: 10%;
     }
-    .navbar{
+
+    .nav-bar{
         height: 50px;
     }
-    .hero_content{
+
+    .hero_content {
         height: 475px;
     }
 
-    .header{
-        padding-top:16px;
-    }
 }

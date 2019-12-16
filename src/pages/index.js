@@ -17,7 +17,6 @@ export default class IndexPage extends Component {
           <Hero />
           <Work />
           <About />
-          <Workflow />
           <Footer />
           <SEO title="Jackson" />
         </div>

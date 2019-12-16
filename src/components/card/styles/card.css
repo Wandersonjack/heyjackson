@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton&display=swap');
 
 .cardbase {
-  max-width: 1140px;
+  max-width: 1200px;
 }
 
 .app_content,
@@ -19,7 +19,7 @@
 }
 .mobile_mockup{
   width: 60%;
-  height: 640px;
+  height: 650px;
   display: block;
   margin:0 auto;
   padding-top:100px;
@@ -52,10 +52,15 @@
 .app_content {
   width: 100%;
   background-color: #edf0ea;
+  border: 2px solid #262D32;
+
 }
 
 .app_img {
   width: 100%;
+  border-top: 2px solid #262D32;
+  border-bottom: 2px solid #262D32;
+  border-right: 2px solid #262D32;
 }
 
 .content_case {
@@ -67,6 +72,13 @@
 .content_case .display2 {
   margin-top: 0;
   line-height: 1;
+}
+
+.border-standard{
+  border-bottom: 4px solid #262D32;
+  max-width: 30%;
+  margin-top: 2px;
+  margin-bottom: 16px;
 }
 
 .border-blue {
