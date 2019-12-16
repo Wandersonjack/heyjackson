@@ -1,0 +1,16 @@
+.custom-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+
+.c-row{
+    display:flex;
+}
+
+.column-6{
+    width: 50%;
+}

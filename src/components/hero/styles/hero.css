@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Hind|Montserrat&display=swap');
 
-.hero_content {
+.hero-content {
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background-color: #edf0ea;
     padding-top: 128px;
 }
@@ -10,8 +10,9 @@
 .hero-container {
     display: block;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1200px;
     width: 100%;
+    background-color: grey;
 }
 
 .item-hero {

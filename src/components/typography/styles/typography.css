@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat&display=swap');
 
 .display1 {
-    font-size: 4em;
+    font-size: 3.6em;
     line-height: 98px;
     font-weight: 800;
 
@@ -66,11 +65,16 @@
 .heading6,
 .paragraph {
     font-size: 1em;
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
+}
+
+.subtitle{
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
 }
 
 .button-text {
-    font-family: hind;
+    font-family: 'Karla', sans-serif;
     font-size: 20px;
 }
 
@@ -109,13 +113,15 @@
     }
 }
 
+
+
 .darkGrey{
-    color:#324142;
+    color:#262D32;
 }
 
 
 li{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 
