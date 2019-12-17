@@ -49,11 +49,24 @@
 
 .item {
     border-radius: 2px;
-    width: 45%;
+    width: 60%;
     color: #FFF;
-    background-color: #34BC8C;
+    border:2px solid #FFF;
+    height: 100px;
     padding-left: 16px;
     transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.item img{
+    padding-right: 16px;
+    padding-left: 20px;
+}
+
+.footerGrey{
+    color:#f2f2f2;
 }
 
 
@@ -65,7 +78,7 @@
     }
 
     .footer {
-        height: 120vh;
+        height: 80vh;
     }
 
     .footer-title {
@@ -79,15 +92,6 @@
         margin: 0 auto;
     }
 
-    .footer-container {
-        width: 100%;
-    }
-
-    .footer a img {
-        width: 44px;
-        height: 44px;
-        margin-top: 128px;
-    }
 
     .contact-extra {
         flex-direction: column-reverse;
@@ -96,6 +100,7 @@
 
     .item {
         width: 100%;
+        flex-wrap: wrap;
     }
 
 }

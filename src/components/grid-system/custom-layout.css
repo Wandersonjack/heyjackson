@@ -11,6 +11,14 @@
     display:flex;
 }
 
+.vertical-col{
+    flex-direction: column;
+}
+
+.divider-top16{
+    margin-top: 16px;
+}
+
 .column-6{
     width: 50%;
 }
@@ -22,5 +30,9 @@
     }
     .column-6{
         width: 80%;
+    }
+    .custom-container{
+        max-width:365px;
+        width: 100%;
     }
 }
