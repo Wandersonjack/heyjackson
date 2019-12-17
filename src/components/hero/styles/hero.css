@@ -2,7 +2,7 @@
 
 .hero-content {
     width: 100%;
-    min-height: 600px;
+    height: 600px;
     background-color: #edf0ea;
     padding-top: 128px;
 }
@@ -43,6 +43,10 @@
     }
     .customVideoPlayer{
         visibility: hidden;
+    }
+
+    .hero-content{
+        height: 500px;
     }
 }
 
