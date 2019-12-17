@@ -8,6 +8,7 @@ import { Element } from "react-scroll"
 import "../pages/styles/page.css"
 import Work from "./worksection"
 import About from "../components/about/about"
+import CompaniesCompent from "../components/companies/companies"
 
 export default class IndexPage extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class IndexPage extends Component {
           <Hero />
           <Work />
           <About />
+          <CompaniesCompent />
           <Footer />
           <SEO title="Jackson" />
         </div>

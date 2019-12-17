@@ -10,6 +10,14 @@
 .c-row{
     display:flex;
 }
+.even{
+    justify-content: space-around;
+    
+}
+
+.even img{
+    padding-top:16px;
+}
 
 .vertical-col{
     flex-direction: column;
