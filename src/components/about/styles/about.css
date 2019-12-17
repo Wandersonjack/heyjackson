@@ -1,6 +1,9 @@
 .me-img {
     height: 870px;
     width: 570px;
+    border-top:2px solid #324142;
+    border-bottom:2px solid #324142;
+    border-left:2px solid #324142;
 }
 .aboutbase {
     max-width: 1140px;
@@ -15,6 +18,7 @@
 .about_content {
     height: 870px;
     width: 100%;
+    border:2px solid #324142;
     background-color: #edf0ea
 }
 
