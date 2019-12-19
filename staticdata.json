@@ -1,0 +1,24 @@
+{
+    "informations" : [
+        {
+            "id" : 1,
+            "title": "BitOfProperty",
+            "description" : "BitOfProperty is a blockchain-based real estate crowdfunding platform that lets you invest in international rental properties starting with 50 EUR",
+            "role" : "Product Designer",
+            "industry" : "Fintech, Real Estate",
+            "team" : "Product engineers, CEO, COO, Product Design",
+            "when" : "December 2018 - Currently",
+            "problem" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non urna gravida id dui consectetur consequat mi, consequat at. Aliquet potenti pellentesque aenean dignissim. Vitae elementum nisi, sit integer congue vitae euismod cras gravida. Duis augue adipiscing est amet, hendrerit.",
+            "challenge" : "Make real estate investing more affordable",
+            "outcome" : "Working on this"
+        },
+        {
+            "title": "Hiple",
+            "description" : "Project management app that enables you to manage team, projects and task all in on place."
+        },
+        {
+            "title": "Shiftio",
+            "description" : "Helping you to find your home sweet home, with no hassle."
+        }
+    ]
+}

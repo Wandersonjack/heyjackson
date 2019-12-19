@@ -9,6 +9,7 @@ import "../pages/styles/page.css"
 import Work from "./worksection"
 import About from "../components/about/about"
 import CompaniesCompent from "../components/companies/companies"
+import AppDetailsPage from "../components/details/appdetails"
 
 export default class IndexPage extends Component {
   render() {

@@ -6,6 +6,7 @@ import logo_trocados from '../../images/companies/trocados.svg'
 import onstock from '../../images/companies/onstock.svg'
 import bitofproperty from '../../images/companies/bitofproperty.svg'
 import { Body1 } from "../typography/typography"
+import { Link, Button } from "react-scroll"
 
 export default class CompaniesCompent extends Component {
   render() {

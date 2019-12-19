@@ -12,7 +12,6 @@
 }
 .even{
     justify-content: space-around;
-    
 }
 
 .even img{
@@ -26,12 +25,20 @@
 .divider-top16{
     margin-top: 16px;
 }
-
+.column-3{
+    width: 30%;
+}
 .column-6{
     width: 50%;
 }
 
+.column-4{
+    width:40%;
+}
 
+.column-8{
+    width:60%;
+}
 @media screen and (max-width:768px){
     .c-row{
         flex-direction: column;

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Heading1, Body1 } from "../typography/typography"
+import { Heading1 } from "../typography/typography"
 import "../card/styles/workflow.css"
 
 export default class WorkCard extends Component {

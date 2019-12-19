@@ -1,7 +1,8 @@
 import React, { Component } from "react"
-import "../details/styles/appdetails.css"
-import Display1, { Body1, Display2 } from "../typography/typography"
-import Button from "../button/button"
+import "../components/details/styles/appdetails.css"
+import Display1, { Body1, Display2 } from "../components/typography/typography"
+import Button from "../components/button/button"
+
 export default class AppDetailsPage extends Component {
   render() {
     var testText =

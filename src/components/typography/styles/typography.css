@@ -65,6 +65,7 @@
 .paragraph {
     font-size: 1em;
     font-family: 'Karla', sans-serif;
+    font-weight: 400;
 }
 
 .subtitle{
@@ -87,6 +88,10 @@
 
 .text-center {
     text-align: center;
+}
+
+.bolder-text{
+    font-weight: 900;
 }
 
 @media screen and (max-width:768px) {

@@ -10,13 +10,8 @@ export default class About extends Component {
       <div className="container">
         <Display2 text="About me" children="display2" />
         <div className="cardbase-about gap-top" id="aboutme-section">
-          <div className={this.props.imgcolor}>
-            <img
-              src={
-                "https://res.cloudinary.com/wander8jackson/image/upload/c_scale,w_789/v1572890094/heyjackson_r1vo4c.png"
-              }
-              className="me-img"
-            />
+          <div  className="me-img">
+  
           </div>
           <div className="about_content">
             <div className="content_case">

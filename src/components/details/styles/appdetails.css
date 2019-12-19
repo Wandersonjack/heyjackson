@@ -1,0 +1,75 @@
+.product-intro {
+    min-height: 509px;
+    background-color: #EDF0EA;
+}
+
+.preview-frame {
+    position: relative;
+    width: 300px;
+    background-image: url('https://gfycat.com/feminineterriblebluewhale');
+}
+.preview{
+    padding-top:64px;
+    padding-bottom: 64px;
+    width: 50%;
+}
+
+.preview-img{
+    max-width: 585px;
+    width: 100%;
+}
+
+.info-w {
+    max-width: 230px;
+}
+
+.data-section {
+    min-height: 400px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+
+.neutral-bck {
+    background-color: #F7f7f7;
+    color: #262D32;
+}
+
+.dark-bck {
+    background-color: #262D32;
+    color: #FFF;
+}
+
+.white-bck {
+    background-color: #FFF;
+    color: #262D32;
+}
+
+.back-button {
+    margin-top: 32px;
+}
+
+.support-image {
+    max-width: 800px;
+    width: 100%;
+    background-size: cover;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.outcome {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #F9F9F9;
+}
+
+.top {
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 769px) {
+    .support-image {
+        margin: 0 auto;
+    }
+}

@@ -23,13 +23,7 @@ export default class Hero extends Component {
                 <Body1 text={introText} children="subtitle txt-hero" />
               </div>
               <div className="column-6">
-                <div className="customVideoPlayer">
-                  <div className="centerView">
-                    <video autoPlay muted loop id="heroVideo">
-                      <source src="" type="video/mp4" />
-                    </video>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
