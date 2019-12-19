@@ -10,7 +10,7 @@ import ContentItem, {
   GeneralView,
   ProductPreview
 } from "../components/details/item"
-import FullPreview from "../components/videoplayer/player"
+
 
 export default class AppDetailsPage extends Component {
   render() {
@@ -195,7 +195,7 @@ export default class AppDetailsPage extends Component {
         />
 
         {/*preview to geral do produto*/}
-        <FullPreview />
+
         <Footer />
       </div>
     )
