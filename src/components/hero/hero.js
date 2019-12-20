@@ -4,6 +4,7 @@ import "../grid-system/custom-layout.css"
 import Navbar from "../navbar/navbar"
 import AppDetailsPage from "../details/appdetails"
 import Display1, { Body1 } from "../typography/typography"
+import PromoVideo from '../video/video'
 
 export default class Hero extends Component {
   render() {
@@ -23,7 +24,7 @@ export default class Hero extends Component {
                 <Body1 text={introText} children="subtitle txt-hero" />
               </div>
               <div className="column-6">
-               
+                <PromoVideo />
               </div>
             </div>
           </div>
