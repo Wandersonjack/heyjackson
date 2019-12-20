@@ -92,7 +92,7 @@ export default class AppDetailsPage extends Component {
                 </a>
               </div>
               <div className="column-6">
-                <img src={previewimg} className="preview-img"/>
+                <img src={previewimg} className="preview-img intro-top"/>
               </div>
             </div>
           </div>

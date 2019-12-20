@@ -1,6 +1,7 @@
 .product-intro {
     min-height: 509px;
     background-color: #EDF0EA;
+    padding-bottom: 32px;
 }
 
 .preview-frame {
