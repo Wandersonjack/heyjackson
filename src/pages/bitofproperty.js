@@ -8,10 +8,9 @@ import back from "../assets/icons/back.svg"
 import ContentItem, {
   ContentView,
   GeneralView,
-  ProductPreview
+  ProductPreview,
 } from "../components/details/item"
 import BopPreview from "../components/video/bop"
-
 
 export default class AppDetailsPage extends Component {
   render() {
@@ -45,9 +44,11 @@ export default class AppDetailsPage extends Component {
     var dashboardimg =
       "https://res.cloudinary.com/wander8jackson/image/upload/v1576747023/UI%27s%20bitofproperty/Dashboard.png"
 
-      var video = "https://res.cloudinary.com/wander8jackson/video/upload/v1576763814/UI%27s%20bitofproperty/case-video-bop.mov"
+    var video =
+      "https://res.cloudinary.com/wander8jackson/video/upload/v1576763814/UI%27s%20bitofproperty/case-video-bop.mov"
 
-      var previewimg ="https://res.cloudinary.com/wander8jackson/image/upload/v1576761990/UI%27s%20bitofproperty/introcase.png"
+    var previewimg =
+      "https://res.cloudinary.com/wander8jackson/image/upload/v1576761990/UI%27s%20bitofproperty/introcase.png"
 
     {
       /*Temporary approach for loading local string instead of json file static data*/
@@ -69,7 +70,7 @@ export default class AppDetailsPage extends Component {
       "The interview to understand the challenges they were facing during the development of the platform, KPI's, goals of the company.  Besides, talked with developers to understand the technologies to understand the possible limitations."
 
     var competitoranalysis =
-      "The analysis focused on investigating how competitors designed their solutions for users. Through this process analyzed from the basic to the core features. "
+      "The analysis focused on investigating how competitors designed their solutions for users. Through this process analyzed from the basic to the core features, strengths and weakness. "
     var userinterview =
       "The user interview aimed to get current users to feedback about the product of the current state at the moment. The first user interview was in Estonia and remote with people from users from Finland, Italy, and the Philippine. The outcome from the interview was the possibility to build user personas, understand more in-depth the pain points."
     var studio =
@@ -92,7 +93,7 @@ export default class AppDetailsPage extends Component {
                 </a>
               </div>
               <div className="column-6">
-                <img src={previewimg} className="preview-img intro-top"/>
+                <img src={previewimg} className="preview-img intro-top" />
               </div>
             </div>
           </div>
@@ -153,12 +154,15 @@ export default class AppDetailsPage extends Component {
         <ContentItem
           supportimg={userinterviewimg}
           contentlayout="data-section neutral-bck"
-          titleaction="User interview"
-          subjectaction={userinterview}
+          title="Qualitative Interviews"
+          subject={userinterview}
+          titleaction="10"
+          subjectaction="Quantity of people"
         />
         {/*PERSONAS*/}
         <GeneralView
           title="User personas"
+          subject="After qualitative interviews and usability tests resulted in two personas. The personas are the main reference we have about humans using the product."
           firstimg={personaum}
           secondimg={personadois}
         />
@@ -172,7 +176,11 @@ export default class AppDetailsPage extends Component {
         {/*OUTCOME */}
         <div className="outcome">
           <div className="custom-container">
-            <Display1 text="The outcome" children="display1" />
+            <Display1 text="The product outcome" children="display1" />
+            <Body1
+              children="paragraph"
+              text="Note: for NDA reasons, I can't display the case studies in depth because of the sensitive data."
+            />
           </div>
         </div>
         <ContentItem
@@ -180,6 +188,8 @@ export default class AppDetailsPage extends Component {
           supportimg={signupimg}
           title="Sign up and Login"
           subject="The sign up is a very common part of the process of converting visitors into users. This interface designed based on the heuristics analysis and usability tests. "
+          titleaction="+ 17%"
+          subjectaction="Converstion rate"
         />
         <ContentItem
           supportimg={propertypage}
@@ -194,8 +204,40 @@ export default class AppDetailsPage extends Component {
           subjectaction="The dashboard designed to provide the user with crucial information at a glance. Some of the visual data are total investment, rental income, and portfolio.
           My orders give the users the overview of buy and sell shares order list. The upcoming features are charts about investment performance and allocation."
         />
-
         <BopPreview />
+        <div className="custom-container gap-bottom">
+          <div className="column-8">
+            {" "}
+            <Display2 text="The lessons learned" children="display2" />
+            <Body1
+              children="paragraph bolder-text"
+              text="1. Simplicity is strength"
+            />
+            <Body1
+              children="paragraph"
+              text="As designers, we are tempted to try to change everything at once and want to improve, but keeping things simple is also a good approach. During some usability tests, the users were getting confused with some words like IRR and other technical words. Write simple, design simple. "
+            />
+            <Body1
+              children="paragraph bolder-text"
+              text="2. If everything is important, nothing is important. Prioritize!"
+            />
+            <Body1
+              children="paragraph"
+              text="It's important to breakdown complex tasks into smaller pieces, discuss and keep track of the handoff will help to ensure that the priority task is being implemented. Prioritize what brings real value to the users."
+            />
+            <Body1
+              children="paragraph bolder-text"
+              text="3. Don't over-document"
+            />
+            <Body1
+              children="paragraph"
+              text="Working on taskflow, user flow, user journey, and exceptions are part of the work, but it's not necessary to write a huge amount of content for the documentation, make it simpler for the developers and team to read."
+            />
+          </div>
+          <Link to="/">
+            <img src={back} className="back-button" />
+          </Link>
+        </div>
 
         <Footer />
       </div>
