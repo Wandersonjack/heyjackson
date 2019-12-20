@@ -44,10 +44,20 @@
         flex-direction: column;
     }
     .column-6{
-        width: 80%;
+        width: 100%;
     }
     .custom-container{
         max-width:365px;
         width: 100%;
+    }
+    .column-3{
+        width: 100%;
+    }
+
+    .column-4{
+        width:100%;
+    }
+    .column-8{
+        width:100%;
     }
 }

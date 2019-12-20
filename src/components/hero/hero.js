@@ -8,7 +8,7 @@ import Display1, { Body1 } from "../typography/typography"
 export default class Hero extends Component {
   render() {
     var introText =
-      "A Product designer based in Tallinn, Estonia, passionate about solving complex problems and making the user experience delightful."
+      "A Senior Product designer based in Tallinn, Estonia, passionate about solving complex problems and making the user experience delightful."
     return (
       <div id="main-section">
         <Navbar />

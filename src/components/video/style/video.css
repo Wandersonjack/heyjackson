@@ -1,0 +1,12 @@
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .video-column {
+       margin-left: 3.5%;
+    }
+ }
+ @media only screen and (max-width: 500px) {
+    .video-column {
+       margin-left: 5.5%;
+     }
+ }
+ 

@@ -10,6 +10,7 @@ import ContentItem, {
   GeneralView,
   ProductPreview
 } from "../components/details/item"
+import BopPreview from "../components/video/video"
 
 
 export default class AppDetailsPage extends Component {
@@ -194,7 +195,7 @@ export default class AppDetailsPage extends Component {
           My orders give the users the overview of buy and sell shares order list. The upcoming features are charts about investment performance and allocation."
         />
 
-        {/*preview to geral do produto*/}
+        <BopPreview />
 
         <Footer />
       </div>
