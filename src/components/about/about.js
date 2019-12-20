@@ -18,7 +18,8 @@ export default class About extends Component {
               <Heading2 children="display2" text="Wanderson Jackson" />
               <Heading4
                 children="heading4"
-                text="I'm Wanderson Jackson, Product Designer with strong focus on user-centered design, to validate and build digital products that users want, with teams of engineers, executives, and marketing teams, to ensure user needs are aligned with business goals."
+                text="I'm Wanderson Jackson, Product Designer with a strong focus on user-centered design, to validate and build digital products that users want, with teams of engineers, executives, and marketing teams, to ensure user needs are aligned with business goals.
+                On free time I enjoy dancing, diving, and hiking. Also, love to inspire people creating content for my Youtube channel."
               />
               <Heading4
                 children="heading4"
