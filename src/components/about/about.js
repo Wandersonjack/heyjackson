@@ -24,7 +24,7 @@ export default class About extends Component {
               />
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1fh9lB-uy08ApMePeDSc5Bq08teY5Ojxm/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1GN2wSNRfF5ATYLTxftZTv7WOEbkEpi4l/view?usp=sharing"
                   target="_blank"
                 >
                   <Button text="Download cv" children="btn-base color-green" />
