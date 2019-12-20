@@ -9,13 +9,14 @@
     width: 300px;
     background-image: url('https://gfycat.com/feminineterriblebluewhale');
 }
-.preview{
-    padding-top:64px;
+
+.preview {
+    padding-top: 64px;
     padding-bottom: 64px;
     width: 50%;
 }
 
-.preview-img{
+.preview-img {
     max-width: 585px;
     width: 100%;
 }
@@ -69,8 +70,37 @@
     margin-top: 120px;
 }
 
+.iframe-custom {
+    margin-bottom: 30px;
+    max-width: 1200px;
+    width: 100%;
+    height: 900px;
+}
+
+.iframe-intro{
+    margin-top:40px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    width: 100%;
+    height: 400px;
+}
+
+
+
 @media screen and (max-width: 769px) {
     .support-image {
         margin: 0 auto;
+    }
+
+    .iframe-custom{
+        padding-top: 32px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .iframe-intro{
+        margin-bottom: 30px;
+        width: 100%;
+        height: 200px;
     }
 }

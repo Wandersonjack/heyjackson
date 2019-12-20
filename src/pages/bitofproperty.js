@@ -10,7 +10,7 @@ import ContentItem, {
   GeneralView,
   ProductPreview
 } from "../components/details/item"
-import BopPreview from "../components/video/video"
+import BopPreview from "../components/video/bop"
 
 
 export default class AppDetailsPage extends Component {
