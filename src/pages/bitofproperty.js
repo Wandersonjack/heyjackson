@@ -11,8 +11,18 @@ import ContentItem, {
   ProductPreview,
 } from "../components/details/item"
 import BopPreview from "../components/video/bop"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default class AppDetailsPage extends Component {
+  constructor(props) {
+    super(props)
+  }
+  componentDidMount() {
+    AOS.init({
+      duration: 600,
+    })
+  }
   render() {
     {
       /*IMAGES*/
@@ -84,7 +94,7 @@ export default class AppDetailsPage extends Component {
               <img src={back} className="back-button" />
             </Link>
             <div className="c-row">
-              <div className="column-6">
+              <div className="column-6" data-aos="fade-right">
                 {/*App introduction content*/}
                 <Display1 text={title} children="display1" />
                 <Body1 text={description} children="paragraph" />
@@ -92,7 +102,7 @@ export default class AppDetailsPage extends Component {
                   <Button text="View live" children="btn-base" />
                 </a>
               </div>
-              <div className="column-6">
+              <div className="column-6" data-aos="fade-left">
                 <img src={previewimg} className="preview-img intro-top" />
               </div>
             </div>
@@ -206,7 +216,7 @@ export default class AppDetailsPage extends Component {
         />
         <BopPreview />
         <div className="custom-container gap-bottom">
-          <div className="column-8">
+          <div className="column-8" data-aos="fade-right">
             {" "}
             <Display2 text="The lessons learned" children="display2" />
             <Body1

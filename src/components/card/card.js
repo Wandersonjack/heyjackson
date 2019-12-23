@@ -3,11 +3,22 @@ import "../card/styles/card.css"
 import Button from "../button/button"
 import { Heading2, Heading4, Heading1 } from "../typography/typography"
 import Link from "gatsby-link"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default class Card extends Component {
+  constructor(props){
+    super(props);
+  }
+  componentDidMount(){
+    AOS.init({
+      duration:1000
+    });
+  }
   render() {
     return (
-      <div className="cardbase">
+      <div className="cardbase" data-aos="zoom-in-up">
         <div className="app_content">
           <div className="content_case">
             <Heading2 children="display2" text={this.props.apptitle} />

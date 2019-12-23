@@ -52,22 +52,21 @@
     border-radius: 2px;
     width: 60%;
     color: #FFF;
-    border:2px solid #FFF;
+    border: 2px solid #FFF;
     height: 100px;
     padding-left: 16px;
     transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
     display: flex;
-    justify-content: start;
     align-items: center;
 }
 
-.item img{
+.item img {
     padding-right: 16px;
     padding-left: 20px;
 }
 
-.footerGrey{
-    color:#f2f2f2;
+.footerGrey {
+    color: #f2f2f2;
 }
 
 
@@ -79,7 +78,7 @@
     }
 
     .footer {
-        height: 80vh;
+        height: 90vh;
     }
 
     .footer-title {
@@ -120,7 +119,7 @@
 
 /*contact link*/
 .contact-link {
-    margin-top:20px ;
+    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -129,15 +128,17 @@
 .contact-link a {
     color: #FFF;
     text-decoration: none;
-    font-family: 'Karla',sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 20px;
-    margin-left:32px ;
+    margin-left: 32px;
     transition: ease-in 0.5s;
 }
-.contact-link:hover{
+
+.contact-link:hover {
     text-decoration: underline;
-   
+
 }
-.contact-link img{
+
+.contact-link img {
     height: 40px;
 }

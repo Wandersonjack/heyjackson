@@ -1,19 +1,27 @@
 import React, { Component } from "react"
-import CardVerse from "../components/card/cardverse"
 import Card from "../components/card/card"
 import { Display2 } from "../components/typography/typography"
 import "../pages/styles/page.css"
 import shiftshift from "../assets/shiftshift.png"
-import staticdata from "../../staticdata.json"
-import { Link } from "react-scroll"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default class Work extends Component {
+  constructor(props){
+    super(props);
+  }
+  componentDidMount(){
+    AOS.init({
+      duration:1000
+    });
+  }
   render() {
     return (
       <div id="work-section">
         <section className="container">
        
-          <Display2 text="Work" children="display2" />
+          <Display2 text="Work" children="display2" data-aos="zoom-in-up"/>
           <Card
             app_mockup={
               "https://res.cloudinary.com/wander8jackson/image/upload/v1576747023/UI%27s%20bitofproperty/Dashboard.png"

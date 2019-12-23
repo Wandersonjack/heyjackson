@@ -3,11 +3,22 @@ import Button from "../button/button"
 import { Heading2, Heading4, Display2 } from "../typography/typography"
 import "../card/styles/card.css"
 import "../about/styles/about.css"
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 
 export default class About extends Component {
+  constructor(props) {
+    super(props)
+  }
+  componentDidMount() {
+    AOS.init({
+      duration: 600,
+    })
+  }
   render() {
     return (
-      <div className="container">
+      <div className="container" data-aos="zoom-in-up">
         <Display2 text="About me" children="display2" />
         <div className="cardbase-about gap-top" id="aboutme-section">
           <div className="me-img"></div>
