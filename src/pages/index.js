@@ -13,6 +13,8 @@ import AppDetailsPage from "../components/details/appdetails"
 
 export default class IndexPage extends Component {
   render() {
+
+ 
     return (
       <React.Fragment>
         <div>
@@ -23,6 +25,7 @@ export default class IndexPage extends Component {
           <Footer />
           <SEO title="Jackson" />
         </div>
+        
       </React.Fragment>
     )
   }
