@@ -19,14 +19,14 @@ export default class Hero extends Component {
   }
   render() {
     var introText =
-      "A Senior Product designer based in Tallinn, Estonia, passionate about solving complex problems and making the user experience delightful."
+      "I'm a multi-disciplinary Product Designer focused on UI, UX and Micro interaction, currently working at BitOfProperty, based in Tallinn , Estonia."
     return (
       <div id="main-section">
         <Navbar />
         <div className="hero-content">
           <div className="custom-container"  data-aos="fade-up">
             <div className="c-row">
-              <div className="column-6 hero-subtitle">
+              <div className="column-6 hero-subtitle whiteColor">
                 <Display1
                   text="Hello, I'm Wanderson Jackson"
                   children="display1"

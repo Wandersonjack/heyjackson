@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Link } from "react-scroll"
 
 import "./styles/navbar.css"
-import logoup from "../../images/logoup.png"
+import logoup from "../../images/logoup.svg"
 
 export default class Navbar extends Component {
   openMenu() {

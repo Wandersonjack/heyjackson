@@ -27,7 +27,7 @@ export default class Work extends Component {
               "https://res.cloudinary.com/wander8jackson/image/upload/v1576747023/UI%27s%20bitofproperty/Dashboard.png"
             }
             style="web_mockup"
-            imgncolor="app_img verde"
+            imgncolor="app_img dark"
             apptitle="BitOfProperty"
             border="border-standard"
             to="/bitofproperty"
@@ -41,7 +41,7 @@ export default class Work extends Component {
               "https://res.cloudinary.com/wander8jackson/image/upload/v1576153753/Untitled_r0sedf.gif"
             }
             style="web_mockup"
-            imgncolor="app_img bck-green-accent"
+            imgncolor="app_img dark"
             apptitle="Hiple"
             border="border-standard"
             to="/"
@@ -53,7 +53,7 @@ export default class Work extends Component {
           <Card
             app_mockup={shiftshift}
             style="mobile_mockup"
-            imgncolor="app_img azul"
+            imgncolor="app_img dark"
             apptitle="Shiftio"
             border="border-standard"
             apptext="Helping you to find your home sweet home, with no hassle."

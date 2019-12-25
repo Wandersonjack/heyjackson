@@ -216,39 +216,10 @@ export default class AppDetailsPage extends Component {
         />
         <BopPreview />
         <div className="custom-container gap-bottom">
-          <div className="column-8" data-aos="fade-right">
-            {" "}
-            <Display2 text="The lessons learned" children="display2" />
-            <Body1
-              children="paragraph bolder-text"
-              text="1. Simplicity is strength"
-            />
-            <Body1
-              children="paragraph"
-              text="As designers, we are tempted to try to change everything at once and want to improve, but keeping things simple is also a good approach. During some usability tests, the users were getting confused with some words like IRR and other technical words. Write simple, design simple. "
-            />
-            <Body1
-              children="paragraph bolder-text"
-              text="2. If everything is important, nothing is important. Prioritize!"
-            />
-            <Body1
-              children="paragraph"
-              text="It's important to breakdown complex tasks into smaller pieces, discuss and keep track of the handoff will help to ensure that the priority task is being implemented. Prioritize what brings real value to the users."
-            />
-            <Body1
-              children="paragraph bolder-text"
-              text="3. Don't over-document"
-            />
-            <Body1
-              children="paragraph"
-              text="Working on taskflow, user flow, user journey, and exceptions are part of the work, but it's not necessary to write a huge amount of content for the documentation, make it simpler for the developers and team to read."
-            />
-          </div>
           <Link to="/">
             <img src={back} className="back-button" />
           </Link>
         </div>
-
         <Footer />
       </div>
     )

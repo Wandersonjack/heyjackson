@@ -2,6 +2,13 @@
 
 .cardbase {
   max-width: 1200px;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.003),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.004),
+    0 12.5px 10px rgba(0, 0, 0, 0.005),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.006),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.007),
+    0 100px 80px rgba(0, 0, 0, 0.01);
 }
 
 .app_content,
@@ -11,22 +18,23 @@
   flex-direction: column;
 }
 
-.web_mockup{
+.web_mockup {
   width: 80%;
   display: block;
-  margin:0 auto;
-  padding-top:100px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
-.mobile_mockup{
+
+.mobile_mockup {
   width: 60%;
   height: 650px;
   display: block;
-  margin:0 auto;
-  padding-top:100px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
-.space-top{
-  margin-top:32px;
+.space-top {
+  margin-top: 32px;
 }
 
 .letter {
@@ -52,15 +60,13 @@
 .app_content {
   width: 100%;
   background-color: #edf0ea;
-  border: 2px solid #262D32;
+
 
 }
 
 .app_img {
   width: 100%;
-  border-top: 2px solid #262D32;
-  border-bottom: 2px solid #262D32;
-  border-right: 2px solid #262D32;
+
 }
 
 .content_case {
@@ -74,7 +80,7 @@
   line-height: 1;
 }
 
-.border-standard{
+.border-standard {
   border-bottom: 4px solid #262D32;
   max-width: 30%;
   margin-top: 2px;
@@ -94,6 +100,7 @@
   margin-top: 2px;
   margin-bottom: 32px;
 }
+
 .border-greenaccent {
   border-bottom: 8px solid #C7DFAF;
   max-width: 30%;
@@ -123,13 +130,16 @@
 }
 
 .verde {
-  background-color: #34bc8d;
+  background-color: #0081EE;
 }
-.verde-accent{
-  background-color:#C7DFAF;
+.dark{
+  background-color: #151515;
+}
+.verde-accent {
+  background-color: #C7DFAF;
 }
 
-.bck-green-accent{
+.bck-green-accent {
   background-color: rgb(222, 238, 206);
 }
 
@@ -188,18 +198,19 @@
 
 
 
-.web_mockup{
-  width: 80%;
-  display: block;
-  margin:0 auto;
-  padding-top:32px;
-}
-.mobile_mockup{
-  width: 40%;
-  height: 260px;
-  display: block;
-  margin:0 auto;
-  padding-top:32px;
-}
+  .web_mockup {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+  }
+
+  .mobile_mockup {
+    width: 40%;
+    height: 260px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+  }
 
 }

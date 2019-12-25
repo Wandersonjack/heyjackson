@@ -6,7 +6,7 @@
 }
 
 .footer {
-    background-color: #262D32;
+    background-color: #151515;
     height: 55vh;
     padding-top: 32px;
 
@@ -99,7 +99,7 @@
     }
 
     .item {
-        width: 100%;
+        width: 92%;
         flex-wrap: wrap;
     }
 

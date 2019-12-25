@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik&display=swap');
 
 .display1 {
     font-size: 3.6em;
@@ -30,30 +30,30 @@
 
 .heading1 {
     font-size: 40px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .heading2 {
     font-size: 32px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 48px;
 }
 
 .heading3 {
     font-size: 28px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 42px;
 }
 
 .heading4 {
     font-size: 24px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 36px;
 }
 
 .heading5 {
     font-size: 20px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 30px;
 }
 
@@ -64,17 +64,17 @@
 .heading6,
 .paragraph {
     font-size: 1em;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
 }
 
 .subtitle{
     font-size: 1.2em;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .button-text {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
 }
 
@@ -129,7 +129,7 @@
 
 
 li{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 

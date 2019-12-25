@@ -20,12 +20,10 @@ export default class IndexPage extends Component {
         <div>
           <Hero />
           <Work />
-          <About />
           <CompaniesCompent />
           <Footer />
           <SEO title="Jackson" />
         </div>
-        
       </React.Fragment>
     )
   }

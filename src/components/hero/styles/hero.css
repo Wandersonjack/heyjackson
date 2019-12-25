@@ -2,8 +2,8 @@
 
 .hero-content {
     width: 100%;
-    height: 600px;
-    background-color: #edf0ea;
+    height: 800px;
+    background-color: rgb(21,21,21);
     padding-top: 128px;
 }
 
@@ -12,7 +12,6 @@
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-    background-color: grey;
 }
 
 .txt-hero{
@@ -47,7 +46,7 @@
 
     .hero-content{
         height: 500px;
-        padding-top: 16px;
+        padding-top: 64px;
         height: 700px;
     }
 }
