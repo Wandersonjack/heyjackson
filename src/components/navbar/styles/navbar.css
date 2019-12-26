@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Hind&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
 
 body,
 ul,
@@ -17,7 +17,6 @@ li {
     position: relative;
     height: 60px;
     font-family: 'Karla', sans-serif;
-
 }
 
 header {
@@ -33,7 +32,7 @@ header {
 .logo img {
     width: 40px;
     height: 25px;
-    margin-left: 128px;
+    padding-left: 128px;
 }
 
 .menu {
@@ -41,7 +40,6 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .menu-nav {
@@ -55,9 +53,8 @@ header {
 }
 
 
-
 .menu-nav a {
-    margin-right: 32px;
+    margin-right: 64px;
 }
 
 .active {
@@ -73,8 +70,13 @@ header {
 
 @media screen and (max-width:768px) {
     .hamburguer {
-        visibility: visible;
+        visibility: hidden;
         margin-right: 10%;
+    }
+    .logo img {
+        width: 40px;
+        height: 25px;
+        padding-left: 20px;
     }
 
     .line {
@@ -86,14 +88,18 @@ header {
 
     .menu-nav {
         visibility: hidden;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    header {
+        width: 80%;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .logo img {
         margin-top: 10%;
-    }
-
-    .nav-bar {
-        height: 50px;
     }
 
     .hero_content {

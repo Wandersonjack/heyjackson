@@ -46,23 +46,11 @@ export default class Navbar extends Component {
               </Link>
               <Link
                 activeClass="active"
-                to="aboutme-section"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={500}
-              >
-                About
-              </Link>
-
-              <Link
-                activeClass="active"
                 to="contact-section"
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
-              >
+                duration={500}>
                 Contact
               </Link>
             </nav>

@@ -46,8 +46,8 @@ export default class Work extends Component {
             border="border-standard"
             to="/"
             apptext="Project management app that enables you to manage team, projects and task all in on place."
-            text="Coming soon..."
-            button="btn-base"
+            text="View work"
+            button="btn-base unactive-btn"
           />
           <div className="space-top"></div>
           <Card
@@ -57,8 +57,8 @@ export default class Work extends Component {
             apptitle="Shiftio"
             border="border-standard"
             apptext="Helping you to find your home sweet home, with no hassle."
-            text="Coming soon..."
-            button="btn-base"
+            text="View work"
+            button="btn-base unactive-btn"
           />
         </section>
 
