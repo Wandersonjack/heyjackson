@@ -16,7 +16,7 @@ export default class BopPreview extends Component {
   render() {
     return (
       <div className="custom-container" data-aos="fade-up">
-        <Display1 text="When the visitor become investor" children="display1" />
+        <Display1 text="Investment flow" children="display2" />
         <Body1
           text="After the visitor verifies his/her profile, now the user can explore properties, choose an opportunity, invest and start earning."
           children="paragraph column-6"

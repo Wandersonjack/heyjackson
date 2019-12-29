@@ -13,6 +13,9 @@ import ContentItem, {
 import BopPreview from "../components/video/bop"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import DataPresentation from "../components/details/imgdisplay"
+import ia from '../images/ia.png'
+import FigmaPreview from "../components/details/figmapreview"
 
 export default class AppDetailsPage extends Component {
   constructor(props) {
@@ -30,7 +33,7 @@ export default class AppDetailsPage extends Component {
     var propertypimg =
       "https://res.cloudinary.com/wander8jackson/image/upload/c_scale,w_1200/v1576766834/UI's%20bitofproperty/apartment-architecture-buildings-1278588.jpg"
     var bopjapan =
-      "https://res.cloudinary.com/wander8jackson/image/upload/v1576696872/IMG_8098_fxqxfo.jpg"
+      "https://res.cloudinary.com/wander8jackson/image/upload/c_scale,w_1989/v1576696872/IMG_8098_fxqxfo.jpg"
     var teamphoto =
       "https://res.cloudinary.com/wander8jackson/image/upload/v1576703750/IMG_1613_cnne5i.jpg"
     var competitorimg =
@@ -58,7 +61,9 @@ export default class AppDetailsPage extends Component {
       "https://res.cloudinary.com/wander8jackson/video/upload/v1576763814/UI%27s%20bitofproperty/case-video-bop.mov"
 
     var previewimg =
-      "https://res.cloudinary.com/wander8jackson/image/upload/v1576761990/UI%27s%20bitofproperty/introcase.png"
+      "https://res.cloudinary.com/wander8jackson/image/upload/c_scale,w_1200/v1576761990/UI's%20bitofproperty/introcase.png"
+
+    var iaimg =""
 
     {
       /*Temporary approach for loading local string instead of json file static data*/
@@ -69,11 +74,12 @@ export default class AppDetailsPage extends Component {
     var role = "Senior Product Designer"
     var industry = "Fintech, Real Estate"
     var team = "Product engineers, CEO, COO, Product Design"
-    var when = "December 2018 - Currently"
+    var responsabilities =
+      "Research, Information Architecture, User flow, Wireframes, UI, Design QA"
     var problem =
       "Real estate is a capital intensive asset class meaning that you need a lot of money to invest. Time-consuming, as you need to do research and manage the property. It's considered an illiquid asset class, when compared with stocks, bonds, crypto and etc."
     var challenge =
-      "'When building out the platform, BitOfProperty did not put much effort into UI/UX. We outsourced the service, which left us in a difficult position, as we were unable to respond to our client's problems and needs. Platform design and the experience that users have are crucial for the investment application, as we are dealing with people’s money. Thus, it was one of the areas that were lacking to build trust in our service'. Karl Vaan - CEO."
+      "The challenge team had the mission to make it easy to sign up, verify identity doing kyc, add funds to investor account and invest in properties."
     var timeforaction =
       "Before designing the interface, it's important to understand why any changes needed, the goals of the company and the people using the app."
     var stakeholderinterview =
@@ -82,7 +88,7 @@ export default class AppDetailsPage extends Component {
     var competitoranalysis =
       "The analysis focused on investigating how competitors designed their solutions for users. Through this process analyzed from the basic to the core features, strengths and weakness. "
     var userinterview =
-      "The user interview aimed to get current users to feedback about the product of the current state at the moment. The first user interview was in Estonia and remote with people from users from Finland, Italy, and the Philippine. The outcome from the interview was the possibility to build user personas, understand more in-depth the pain points."
+      "conducted user interviews within our target audience who had previously used one or more investment apps. Here were some big takeaways:"
     var studio =
       "The ideation happens after selecting the prioritized task from the backlog. To bring the ideas into reality, I moderate a Design studio. The ceremony takes up to one hour, and brings together engineers, designers, and business people, to sketch ideas related to the problem. This approach helps me as a designer to get insights from different people and areas."
     return (
@@ -125,8 +131,11 @@ export default class AppDetailsPage extends Component {
                 <Body1 text={team} children="paragraph info-w" />
               </div>
               <div className="column-3">
-                <Body1 text="When" children="paragraph bolder-text" />
-                <Body1 text={when} children="paragraph info-w" />
+                <Body1
+                  text="Responsabilities"
+                  children="paragraph bolder-text"
+                />
+                <Body1 text={responsabilities} children="paragraph info-w" />
               </div>
             </div>
           </div>
@@ -141,7 +150,7 @@ export default class AppDetailsPage extends Component {
         <ContentItem
           supportimg={bopjapan}
           contentlayout="data-section dark-bck"
-          title="The team challenge"
+          title="The challenge"
           subject={challenge}
         />
         {/*STAKEHOLDER INVERTERVIEW*/}
@@ -176,6 +185,10 @@ export default class AppDetailsPage extends Component {
           firstimg={personaum}
           secondimg={personadois}
         />
+         <DataPresentation
+          title="Information Architecture"
+          dataimg={ia}
+        />
         {/*DESIGN STUDIO*/}
         <ContentItem
           supportimg={studioimg}
@@ -183,6 +196,8 @@ export default class AppDetailsPage extends Component {
           titleaction="Collaborative ideation"
           subjectaction={studio}
         />
+        <FigmaPreview />
+        
         {/*OUTCOME */}
         <div className="outcome">
           <div className="custom-container">

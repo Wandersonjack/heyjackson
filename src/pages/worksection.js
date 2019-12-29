@@ -24,7 +24,7 @@ export default class Work extends Component {
           <Display2 text="Work" children="display2" data-aos="zoom-in-up"/>
           <Card
             app_mockup={
-              "https://res.cloudinary.com/wander8jackson/image/upload/v1576747023/UI%27s%20bitofproperty/Dashboard.png"
+              "https://res.cloudinary.com/wander8jackson/image/upload/c_scale,w_1200/v1576747023/UI's%20bitofproperty/Dashboard.png"
             }
             style="web_mockup"
             imgncolor="app_img dark"
@@ -51,7 +51,7 @@ export default class Work extends Component {
           />
           <div className="space-top"></div>
           <Card
-            app_mockup={shiftshift}
+            app_mockup={'https://res.cloudinary.com/wander8jackson/image/upload/v1577619296/Home_hbesd6.png'}
             style="mobile_mockup"
             imgncolor="app_img dark"
             apptitle="Shiftio"

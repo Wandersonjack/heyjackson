@@ -26,13 +26,20 @@
 }
 
 .mobile_mockup {
-  width: 60%;
-  height: 650px;
-  display: block;
+  width: 50%;
+  height: 640px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: relative;
 }
 
+.center{
+  position:absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
+}
 .space-top {
   margin-top: 32px;
 }
