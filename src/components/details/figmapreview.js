@@ -16,9 +16,9 @@ export default class FigmaPreview extends Component {
     render() {
     return (
       <div className="custom-container" data-aos="fade-up">
-        <Display1 text="When the visitor become investor" children="display2" />
+        <Display1 text="The visual elements and components" children="display2" />
         <Body1
-          text="Using atomic designprinciples, I created elements that would be repeatable across the app in order to create consistency and user-recognition of content types."
+          text="Using atomic design principles, I created elements that would be repeatable across the app in order to create consistency and user-recognition of content types."
           children="paragraph column-6 gap-bottom"
         />
         <iframe
