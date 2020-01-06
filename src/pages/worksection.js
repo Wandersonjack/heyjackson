@@ -54,7 +54,7 @@ export default class Work extends Component {
             app_mockup={'https://res.cloudinary.com/wander8jackson/image/upload/v1577619296/Home_hbesd6.png'}
             style="mobile_mockup"
             imgncolor="app_img dark"
-            apptitle="Shiftio"
+            apptitle="Pagus"
             border="border-standard"
             apptext="Helping you to find your home sweet home, with no hassle."
             text="View work"
